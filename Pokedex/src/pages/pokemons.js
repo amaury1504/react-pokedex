@@ -31,18 +31,11 @@ class Pokemons extends React.Component{
             
                 <div className="App">
                 <header className="App-header">
-                  <img src={logo} className="App-logo" alt="logo"/>
+                  <h1>Pokédex</h1>
                   <Item/>
                   <Form handleSubmit={this.handleSubmit} value={this.state.value} />
                   <List data={filteredPokemons} />
                   <Clock/>
-                  <a
-                  className="App-link"
-                  href="https://reactjs.org"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Learn React
-                  </a>
                 </header>
               </div>
             );

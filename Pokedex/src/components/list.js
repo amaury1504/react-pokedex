@@ -6,8 +6,8 @@ const List =({data}) =>{
     return(
     
     <ul>
-       {data.map((appartements, index)=>(
-        <Item key={`appartements`+ index}{...appartements} />
+       {data.map((pokemons, index)=>(
+        <Item key={`pokemons`+ index}{...pokemons} />
         ))}:
 
     </ul>
